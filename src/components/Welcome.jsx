@@ -1,5 +1,4 @@
-import React, { useEffect, useState, Component } from "react";
-import axios from "axios";
+import React from "react";
 import { NavLink } from "react-router-dom";
 class Welcome extends React.Component {
   render() {

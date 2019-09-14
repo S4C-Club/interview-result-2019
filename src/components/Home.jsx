@@ -1,6 +1,5 @@
-import React, { useEffect, useState, Component } from "react";
-import { NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
+import React from "react";
+import axios from "axios";
 import List from "./List";
 import loading from "../assets/loading.svg";
 
@@ -8,7 +7,8 @@ class Result extends React.Component {
   state = {
     searchValue: "",
     searched: false,
-    isLoading: false
+    isLoading: false,
+    data: []
   };
   handleChange = event => {
     this.setState({ searchValue: event.target.value, searched: false });
@@ -23,6 +23,28 @@ class Result extends React.Component {
   toggleSearch = payload => {
     this.setState({ isLoading: payload });
   };
+
+  componentDidMount() {
+    const sheetAPI =
+      "https://spreadsheets.google.com/feeds/cells/1gyA4Frb9oZVNVc2ZKMCA7Cf-ybHVSicwe8Z8LHTOoCo/od6/public/values?alt=json";
+    axios.get(sheetAPI).then(res => {
+      let entry = res.data.feed.entry;
+
+      const resData = [];
+
+      for (let i = 5; i <= entry.length - 5; i += 5) {
+        const isPassed = entry[i + 4].content.$t === "ĐẬU";
+        resData.push({
+          id: entry[i].content.$t,
+          name: entry[i + 1].content.$t,
+          email: entry[i + 2].content.$t,
+          number: entry[i + 3].content.$t,
+          result: isPassed
+        });
+      }
+      this.setState({ data: resData });
+    });
+  }
   render() {
     return (
       <React.Fragment>
@@ -60,14 +82,14 @@ class Result extends React.Component {
         </form>
         {this.state.searched &&
         this.state.searchValue.length > 0 &&
-        this.props.data &&
+        this.state.data &&
         !this.state.isLoading ? (
           <List
-            data={this.props.data}
+            data={this.state.data}
             searchValue={this.state.searchValue}
           ></List>
         ) : this.state.isLoading ? (
-          <img src={loading}></img>
+          <img src={loading} alt="loading"></img>
         ) : (
           ""
         )}

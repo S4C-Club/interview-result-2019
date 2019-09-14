@@ -1,6 +1,5 @@
-import React, { useEffect, useState, Component } from "react";
-import axios from "axios";
-import { Link } from "react-router-dom";
+import React from "react";
+
 
 class Result extends React.Component {
   render() {

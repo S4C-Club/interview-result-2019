@@ -1,10 +1,10 @@
-import React, { useEffect, useState, Component } from "react";
-import axios from "axios";
+import React, { Component } from "react";
+
 import { Link } from "react-router-dom";
 
 export default class List extends Component {
   render() {
-    const { data, searchValue, searched } = this.props;
+    const { data, searchValue } = this.props;
     const lowercasedFilter = searchValue.toLowerCase();
     let filteredData = [];
     if (data.length > 0) {

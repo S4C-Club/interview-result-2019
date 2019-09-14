@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
-import List from "./components/List";
+
 import { Route, Link, Switch } from "react-router-dom";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
 import Result from "./components/Result";
 import Home from "./components/Home";
 import Welcome from "./components/Welcome";
