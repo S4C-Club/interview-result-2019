@@ -24,15 +24,15 @@ class Result extends React.Component {
         <br></br> Tiếp đến hãy thở thật đều vì chúng mình sẽ thông báo một tin
         buồn là không có tin vui thứ hai.
         <br></br>
-        Việc bạn chính thức trở thành một Red Maker đồng nghĩa với việc bạn sẽ
+        Việc chính thức trở thành một Red Maker đồng nghĩa với việc bạn sẽ
         bước vào cuộc hành trình viết nên bản nhạc - Red Song của chính mình tại
-        VÒNG TRAINING của S4C. Cuộc phiêu lưu của các bạn sẽ bắt đầu:
+        VÒNG TRAINING của S4C. Cuộc phiêu lưu của các bạn sẽ bắt đầu vào:
         <br></br>
         Thời gian: 18h Thứ 3 ngày 17/9
         <br></br>Địa điểm: Phòng 602 Nhà A2
         <br></br>
-        <br></br>Một lần nữa xin được chúc mừng bạn và hẹn gặp lại bạn vào buổi
-        1st meeting của chúng mình.
+        <br></br>Một lần nữa xin được chúc mừng và hẹn gặp lại bạn vào buổi
+        1st meeting của chúng mình!
         <br></br>Thân ái,
         <br></br>S4C
       </div>
