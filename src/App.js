@@ -8,9 +8,15 @@ import Result from "./components/Result";
 import Home from "./components/Home";
 import Welcome from "./components/Welcome";
 import logo from "./assets/logo.png";
+import { PageView, initGA } from "./components/Tracking";
 
 function App() {
   const [data, setData] = useState(null);
+
+  useEffect(() => {
+    initGA("UA-148001926-1");
+    PageView();
+  }, []);
 
   useEffect(() => {
     const sheetAPI =
