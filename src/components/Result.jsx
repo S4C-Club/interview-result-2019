@@ -52,10 +52,10 @@ class Result extends React.Component {
                 <br></br>CHÚNG MÌNH RẤT TIẾC BẠN ĐÃ KHÔNG VƯỢT QUA VÒNG PHỎNG
                 VẤN CỦA S4C
                 <br></br>
-                <br></br>Chúng mình biết rằng bạn là một nhân tố rất là tiềm
-                năng tuy nhiên có lẽ bạn bạn và mình chưa thật sự có duyên.
-                Nhưng chúng mình tin rằng sẽ có nhiều cơ hội khác sẽ mở ra với
-                bạn, hãy cố gắng kiếm tiến về phía trước và tìm kiếm những cánh
+                <br></br>Chúng mình biết rằng bạn là một nhân tố rất rất tiềm
+                năng tuy nhiên có lẽ bạn và mình chưa thật sự có duyên.
+                Nhưng S4C tin rằng sẽ có nhiều cơ hội khác sẽ mở ra với
+                bạn, hãy cố gắng tiến về phía trước và tìm kiếm những cánh
                 cửa khác dành cho mình nhé!
                 <br></br>Một lần nữa cảm ơn bạn rất nhiều vì đã dũng cảm ứng
                 tuyển cho đợt tuyển thành viên thế hệ thứ 7 của S4C.
