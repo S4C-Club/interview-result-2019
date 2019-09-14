@@ -1,6 +1,5 @@
 import React from "react";
 
-
 class Result extends React.Component {
   render() {
     return (
@@ -25,7 +24,6 @@ class Result extends React.Component {
                 <br></br> Tiếp đến hãy thở thật đều vì chúng mình sẽ thông báo
                 một tin buồn là không có tin vui thứ hai.
                 <br></br>
-                <br></br>
                 Việc bạn chính thức trở thành một Red Maker đồng nghĩa với việc
                 bạn sẽ bước vào cuộc hành trình viết nên bản nhạc - Red Song của
                 chính mình tại VÒNG TRAINING của S4C. Cuộc phiêu lưu của các bạn
@@ -36,7 +34,6 @@ class Result extends React.Component {
                 <br></br>
                 <br></br>Một lần nữa xin được chúc mừng bạn và hẹn gặp lại bạn
                 vào buổi 1st meeting của chúng mình.
-                <br></br>
                 <br></br>Thân ái,
                 <br></br>S4C
               </div>
@@ -53,10 +50,10 @@ class Result extends React.Component {
                 VẤN CỦA S4C
                 <br></br>
                 <br></br>Chúng mình biết rằng bạn là một nhân tố rất rất tiềm
-                năng tuy nhiên có lẽ bạn và mình chưa thật sự có duyên.
-                Nhưng S4C tin rằng sẽ có nhiều cơ hội khác sẽ mở ra với
-                bạn, hãy cố gắng tiến về phía trước và tìm kiếm những cánh
-                cửa khác dành cho mình nhé!
+                năng tuy nhiên có lẽ bạn và mình chưa thật sự có duyên. Nhưng
+                S4C tin rằng sẽ có nhiều cơ hội khác sẽ mở ra với bạn, hãy cố
+                gắng tiến về phía trước và tìm kiếm những cánh cửa khác dành cho
+                mình nhé!
                 <br></br>Một lần nữa cảm ơn bạn rất nhiều vì đã dũng cảm ứng
                 tuyển cho đợt tuyển thành viên thế hệ thứ 7 của S4C.
                 <br></br>Hẹn gặp lại bạn vào một dịp không xa!
