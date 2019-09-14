@@ -26,7 +26,7 @@ function App() {
           id: entry[i].content.$t,
           name: entry[i + 1].content.$t,
           email: entry[i + 2].content.$t,
-          number: `0${entry[i + 3].content.$t}`,
+          number: entry[i + 3].content.$t,
           result: isPassed
         });
       }

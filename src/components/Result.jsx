@@ -3,21 +3,12 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 
 class Result extends React.Component {
-  state = {
-    isLoading: false
-  };
-
-  componentDidMount() {
-    this.setState({ isLoading: true });
-    setTimeout(() => this.setState({ isLoading: false }), 3000);
-  }
-
   render() {
     return (
       <React.Fragment>
         <div className="letter">
           <div className="letter-wrapper">
-            {this.props.location.state.candidate.result && !this.state.isLoading ? (
+            {this.props.location.state.candidate.result ? (
               <div>
                 MẬT THƯ KHẨN
                 <br></br>
@@ -50,7 +41,7 @@ class Result extends React.Component {
                 <br></br>Thân ái,
                 <br></br>S4C
               </div>
-            ) : (
+            ) : !this.props.location.state.candidate.result ? (
               <div>
                 MẬT THƯ KHẨN
                 <br></br>Chào bạn,
@@ -74,6 +65,8 @@ class Result extends React.Component {
                 <br></br>Thân ái,
                 <br></br>S4C
               </div>
+            ) : (
+              ""
             )}
           </div>
         </div>

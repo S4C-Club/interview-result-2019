@@ -24,7 +24,6 @@ class Result extends React.Component {
     this.setState({ isLoading: payload });
   };
   render() {
-    console.log(this.props.data);
     return (
       <React.Fragment>
         <form onSubmit={this.onSubmit}>

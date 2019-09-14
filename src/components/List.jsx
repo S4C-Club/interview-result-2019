@@ -27,8 +27,8 @@ export default class List extends Component {
                 }}
               >
                 <div className="list-item" key={item.id}>
-                  {item.name} {item.email === "null" ? "" : item.email} -{" "}
-                  {item.number}
+                  {item.name} {item.email === "null" ? "" : "- " + item.email}{" "}
+                  {item.number === "null" ? "" : "- " + item.number}
                 </div>
               </Link>
             ))
