@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cddec218edb5a3250e23ce6e74ab4983",
+    "revision": "4a28112d86a47f3287749a88572cc6a9",
     "url": "/index.html"
   },
   {
-    "revision": "ab13dbfef801c62a7631",
-    "url": "/static/css/main.1789a321.chunk.css"
+    "revision": "8b7f2182a19692db629a",
+    "url": "/static/css/main.4201d273.chunk.css"
   },
   {
     "revision": "5fc0f326e7e3dec5a174",
     "url": "/static/js/2.784fb07e.chunk.js"
   },
   {
-    "revision": "ab13dbfef801c62a7631",
-    "url": "/static/js/main.b55f4b4b.chunk.js"
+    "revision": "8b7f2182a19692db629a",
+    "url": "/static/js/main.02f75c6c.chunk.js"
   },
   {
     "revision": "69f4261cd632f5de2aa5",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "429be427bca5f53c438a99b2a7c5780c",
     "url": "/static/media/1.429be427.jpg"
+  },
+  {
+    "revision": "8a8768e6dd8744e4031b314a649b3eab",
+    "url": "/static/media/letter-background-mobile.8a8768e6.jpg"
   },
   {
     "revision": "e5c54dc1d567fbad06e0e8a020df4b88",
